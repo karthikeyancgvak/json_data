@@ -4,7 +4,7 @@
   "description": "JSON Server for tickets.json",
   "main": "index.js",
   "scripts": {
-    "start": "json-server --watch tickets.json --port $PORT --static false"
+    "start": "json-server --watch tickets.json --port $PORT"
   },
   "dependencies": {
     "json-server": "^0.17.0"
